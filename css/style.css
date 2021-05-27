@@ -12,12 +12,14 @@ header{
 }
 section{
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 100px);
     background: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow-x: hidden;
 }
+
 .logo{
     width: 40%;
     height: 100px;
@@ -78,6 +80,7 @@ section{
     border: 1px solid white;
     height: 550px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .cajasMovil{
@@ -85,7 +88,7 @@ section{
     width: 23%;
     height: 520px;
     border: 1px solid rgba(95, 93, 93, 0.678);
-   text-align: center;
+    text-align: center;
     background-color: rgba(95, 93, 93, 0.678);
     color: white;
 }
@@ -152,6 +155,7 @@ section{
     background-color: white;
     border-radius: 3em;
     position: relative;
+    overflow-x: hidden;
 }
 
 .movilcierra{

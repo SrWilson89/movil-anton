@@ -36,6 +36,44 @@ var moviles=[
         precio256:1150
 
     },
+
+    {
+        foto1:"img/XiaomiMi10TLite.png",
+        foto2:"img/XiaomiMi10TLite128GB.png",
+        nombre:"Xiaomi Mi 10T Lite",
+        precio:290,
+        precio64:350,
+        precio128:489,
+        precio256:529
+    },
+    {
+        foto1:"img/Iphone12.png",
+        foto2:"img/Iphone12Mor.png",
+        nombre:"Iphone 12 Pro",
+        precio:1300,
+        precio64:1450,
+        precio128:1570,
+        precio256:1660
+    },
+    {
+        foto1:"img/GalaxyNote20Ultra.png",
+        foto2:"img/GalaxyNote20Ultra5G.png",
+        nombre:"Galaxy Note20 Ultra",
+        precio:1150,
+        precio64:1290,
+        precio128:1395,
+        precio256:1450
+    },
+    {
+        foto1:"img/GalaxyS20.png",
+        foto2:"img/Galaxys205G.png",
+        nombre:"Galaxy S20+5G",
+        precio:780,
+        precio64:880,
+        precio128:969,
+        precio256:1150
+
+    },
 ]
 var pedidosT=[];
 
