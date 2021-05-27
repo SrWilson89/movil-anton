@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuMovil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <h1>TuMovil(o MiMovil)</h1>
+        </div>
+        <div class="cajaD">
+            <div class="valorC">
+                <h4>Valor Compra</h4>
+                <div class="resul"><p></p><span id="total">0</span> €</p></div>
+            </div>
+            <div class="carrito" onclick="abrirModal()"><i class="fas fa-shopping-cart"></i><span id="numeroDiscos"></span></div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container" id="container">
+        
+        </div>
+
+        <div id="contenedorM">
+            <div class="modalmovil">
+                <div onclick="cierreModal()" class="movilcierra"><p>X</p></div>
+                <div class="boton" onclick="window.print()"> <i class="fas fa-print fra"></i></div>
+
+                <div id="movilP">
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--<i class="fas fa-heart"></i>-->
+</body>
+<script src="js/motor.js"></script>
+<script src="js/motorModal.js"></script>
+</html>
