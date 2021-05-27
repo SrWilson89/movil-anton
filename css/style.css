@@ -28,9 +28,9 @@ section{
     justify-content: center;
 }
 .logo h1{
- color: white;
- font-family: 'Caveat', cursive;
- font-size: 40px;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
 }
 .carrito{
     font-size: 40px;
